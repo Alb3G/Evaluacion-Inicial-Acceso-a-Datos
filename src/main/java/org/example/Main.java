@@ -14,6 +14,7 @@ public class Main {
             System.out.println("Escriba el numero final:");
             end = sc.nextInt();
             ArrayList<Integer> primeNums = searchPrimeNumbers(start, end);
+            System.out.println("Buscando primos...");
             for(int n : primeNums) {
                 System.out.println(n);
             }
